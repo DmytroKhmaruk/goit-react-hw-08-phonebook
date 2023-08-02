@@ -32,12 +32,6 @@ export const ContactsPage = () => {
     dispatch(fetchContactThunk());
   }, [dispatch]);
 
-  // const formAddContact = contactData => {
-  //   const finded = contacts.find(contact => contact.name === contactData.name);
-  //   if (finded) {
-  //     alert(`${contactData.name} is already in contacts`);
-  //     return;
-  //   }
   const formAddContact = contactData => {
     const isExistingContact = contacts.find(contact => contact.name === contactData.name);
 

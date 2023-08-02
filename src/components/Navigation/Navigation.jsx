@@ -21,8 +21,8 @@ export const Nav = () => {
         ) : (
           <>
             <StyledLink to="/">Home</StyledLink>
-            <StyledLink to="/register">Register</StyledLink>
-            <StyledLink to="/login">Login</StyledLink>
+            <StyledLink to="/register">Get Started</StyledLink>
+            <StyledLink to="/login">Sign in</StyledLink>
           </>
         )}
       </NavStyled>

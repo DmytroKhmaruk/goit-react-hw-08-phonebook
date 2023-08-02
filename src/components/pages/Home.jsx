@@ -4,11 +4,10 @@ import { HomeStyled, LinkStyled, LogLinks } from './HomeStyled';
 export const Home = () => {
   return (
     <HomeStyled>
-      <h2>Wellcome!</h2>
+      <h2>Welcome!</h2>
       <LogLinks>
-        <LinkStyled to="/register">Register</LinkStyled>
-        <p>or</p>
-        <LinkStyled to="/login">Login</LinkStyled>
+        <LinkStyled to="/register">Get Started</LinkStyled>
+        <LinkStyled to="/login">Sign in</LinkStyled>
       </LogLinks>
     </HomeStyled>
   );
